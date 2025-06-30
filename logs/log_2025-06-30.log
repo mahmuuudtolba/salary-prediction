@@ -1,0 +1,12 @@
+2025-06-30 12:44:08,552 - INFO - Successfully read the YAML file
+2025-06-30 12:44:08,553 - INFO - Data ingestions started with salary-prediction-project with salary.csv
+2025-06-30 12:44:08,553 - INFO - Starting data ingestion process
+2025-06-30 12:44:11,714 - ERROR - Error while Downloading csv file
+2025-06-30 12:44:11,714 - INFO - Data ingestion completed
+2025-06-30 12:52:27,559 - INFO - Successfully read the YAML file
+2025-06-30 12:52:27,559 - INFO - Data ingestions started with salary-prediction-project with salary.csv
+2025-06-30 12:52:27,559 - INFO - Starting data ingestion process
+2025-06-30 12:52:53,648 - INFO - Raw file is successfully downloaded to artifacts/raw\raw.csv
+2025-06-30 12:52:53,661 - INFO - Start the splitting process
+2025-06-30 12:52:53,742 - ERROR - Error while Splitting data
+2025-06-30 12:52:53,742 - INFO - Data ingestion completed

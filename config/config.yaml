@@ -1,0 +1,4 @@
+data_ingestion:
+  bucket_name: "salary-prediction-project"
+  bucket_file_name : "salary.csv"
+  train_ratio : 0.8
