@@ -5,7 +5,7 @@ with open("requirements.txt") as f :
 
 
 setup(
-    name="mlops-project-hotel-reservation" , 
+    name="mlops-salary-prediction" , 
     version="0.1",
     author="mahmoud tolba" ,
     packages=find_packages(requirements) , 

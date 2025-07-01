@@ -1,0 +1,247 @@
+2025-07-01 07:06:29,034 - INFO - Successfully read the YAML file
+2025-07-01 07:06:29,034 - INFO - Data ingestions started with salary-prediction-project with salary.csv
+2025-07-01 07:06:29,034 - INFO - Starting data ingestion process
+2025-07-01 07:06:34,073 - INFO - Raw file is successfully downloaded to artifacts/raw\raw.csv
+2025-07-01 07:06:34,073 - INFO - Start the splitting process
+2025-07-01 07:06:34,494 - INFO - Traind data saved to artifacts/raw\train.csv
+2025-07-01 07:06:34,494 - INFO - Test data saved to artifacts/raw\test.csv
+2025-07-01 07:06:34,494 - INFO - Data ingestion completed successfully
+2025-07-01 07:06:34,494 - INFO - Data ingestion completed
+2025-07-01 07:07:10,608 - INFO - Successfully read the YAML file
+2025-07-01 07:07:10,608 - INFO - Loading data from RAW directory
+2025-07-01 07:07:10,608 - INFO - Loading data
+2025-07-01 07:07:10,666 - INFO - Loading data
+2025-07-01 07:07:10,682 - INFO - Starting our data processing step
+2025-07-01 07:07:10,682 - INFO - Filling missing data
+2025-07-01 07:07:10,698 - INFO - Dropping outliers
+2025-07-01 07:07:10,720 - INFO - Target encoding
+2025-07-01 07:07:10,748 - INFO - Dropping unnecessary columns
+2025-07-01 07:07:10,748 - INFO - Handling categorical and numerical features
+2025-07-01 07:07:10,825 - INFO - Starting our data processing step
+2025-07-01 07:07:10,825 - INFO - Filling missing data
+2025-07-01 07:07:10,831 - INFO - Dropping outliers
+2025-07-01 07:07:10,835 - INFO - Target encoding
+2025-07-01 07:07:10,841 - INFO - Dropping unnecessary columns
+2025-07-01 07:07:10,841 - INFO - Handling categorical and numerical features
+2025-07-01 07:07:10,890 - INFO - Start our feature selection step
+2025-07-01 07:07:11,389 - INFO - RandomForestClassifier Accuracy: 0.9998
+2025-07-01 07:07:11,389 - INFO - Feature selected : ['num__age' 'num__fnlwgt' 'num__hours-per-week' 'num__education-num'
+ 'cat__workclass_ Self-emp-inc' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Wife' 'cat__occupation_ Sales'
+ 'cat__occupation_Other-service' 'cat__workclass_Other'
+ 'cat__workclass_ Self-emp-not-inc' 'cat__workclass_ Private']
+2025-07-01 07:07:11,389 - INFO - feature selection completed successfully
+2025-07-01 07:07:11,389 - INFO - saving our data in processed folder
+2025-07-01 07:07:11,610 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:07:11,610 - INFO - saving our data in processed folder
+2025-07-01 07:07:11,657 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:07:11,657 - INFO - Data processing completed successfully
+2025-07-01 07:08:09,035 - INFO - Successfully read the YAML file
+2025-07-01 07:08:09,035 - INFO - Data ingestions started with salary-prediction-project with salary.csv
+2025-07-01 07:08:09,035 - INFO - Starting data ingestion process
+2025-07-01 07:08:13,052 - INFO - Raw file is successfully downloaded to artifacts/raw\raw.csv
+2025-07-01 07:08:13,052 - INFO - Start the splitting process
+2025-07-01 07:08:13,432 - INFO - Traind data saved to artifacts/raw\train.csv
+2025-07-01 07:08:13,432 - INFO - Test data saved to artifacts/raw\test.csv
+2025-07-01 07:08:13,432 - INFO - Data ingestion completed successfully
+2025-07-01 07:08:13,432 - INFO - Data ingestion completed
+2025-07-01 07:11:04,308 - INFO - Successfully read the YAML file
+2025-07-01 07:11:04,308 - INFO - Loading data from RAW directory
+2025-07-01 07:11:04,308 - INFO - Loading data
+2025-07-01 07:11:04,393 - INFO - Loading data
+2025-07-01 07:11:04,409 - INFO - Starting our data processing step
+2025-07-01 07:11:04,409 - INFO - Filling missing data
+2025-07-01 07:11:04,445 - INFO - Dropping outliers
+2025-07-01 07:11:04,465 - INFO - Target encoding
+2025-07-01 07:11:04,485 - INFO - Dropping unnecessary columns
+2025-07-01 07:11:04,488 - INFO - Handling categorical and numerical features
+2025-07-01 07:11:04,566 - INFO - Starting our data processing step
+2025-07-01 07:11:04,566 - INFO - Filling missing data
+2025-07-01 07:11:04,574 - INFO - Dropping outliers
+2025-07-01 07:11:04,581 - INFO - Target encoding
+2025-07-01 07:11:04,587 - INFO - Dropping unnecessary columns
+2025-07-01 07:11:04,587 - INFO - Handling categorical and numerical features
+2025-07-01 07:11:04,643 - INFO - Start our feature selection step
+2025-07-01 07:11:05,226 - INFO - RandomForestClassifier Accuracy: 1.0000
+2025-07-01 07:11:05,234 - INFO - Feature selected : ['num__age' 'num__fnlwgt' 'num__hours-per-week' 'num__education-num'
+ 'num__capital-loss' 'cat__occupation_Other-service' 'num__capital-gain'
+ 'cat__occupation_ Exec-managerial' 'cat__relationship_ Wife'
+ 'cat__sex_ Male' 'cat__workclass_ Self-emp-inc'
+ 'cat__relationship_ Not-in-family']
+2025-07-01 07:11:05,236 - INFO - feature selection completed successfully
+2025-07-01 07:11:05,238 - INFO - saving our data in processed folder
+2025-07-01 07:11:05,516 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:11:05,516 - INFO - saving our data in processed folder
+2025-07-01 07:11:05,563 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:11:05,563 - INFO - Data processing completed successfully
+2025-07-01 07:12:32,408 - INFO - Successfully read the YAML file
+2025-07-01 07:12:32,408 - INFO - Loading data from RAW directory
+2025-07-01 07:12:32,408 - INFO - Loading data
+2025-07-01 07:12:32,487 - INFO - Loading data
+2025-07-01 07:12:32,502 - INFO - Starting our data processing step
+2025-07-01 07:12:32,502 - INFO - Filling missing data
+2025-07-01 07:12:32,558 - INFO - Target encoding
+2025-07-01 07:12:32,594 - INFO - Dropping unnecessary columns
+2025-07-01 07:12:32,594 - INFO - Handling categorical and numerical features
+2025-07-01 07:12:32,678 - INFO - Starting our data processing step
+2025-07-01 07:12:32,678 - INFO - Filling missing data
+2025-07-01 07:12:32,701 - INFO - Target encoding
+2025-07-01 07:12:32,709 - INFO - Dropping unnecessary columns
+2025-07-01 07:12:32,710 - INFO - Handling categorical and numerical features
+2025-07-01 07:12:32,782 - INFO - Start our feature selection step
+2025-07-01 07:12:35,629 - INFO - RandomForestClassifier Accuracy: 0.8522
+2025-07-01 07:12:35,644 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:12:35,644 - INFO - feature selection completed successfully
+2025-07-01 07:12:35,664 - INFO - saving our data in processed folder
+2025-07-01 07:12:36,008 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:12:36,008 - INFO - saving our data in processed folder
+2025-07-01 07:12:36,103 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:12:36,103 - INFO - Data processing completed successfully
+2025-07-01 07:19:12,152 - INFO - Successfully read the YAML file
+2025-07-01 07:19:12,152 - INFO - Loading data from RAW directory
+2025-07-01 07:19:12,152 - INFO - Loading data
+2025-07-01 07:19:12,247 - INFO - Loading data
+2025-07-01 07:19:12,263 - INFO - Starting our data processing step
+2025-07-01 07:19:12,263 - INFO - Filling missing data
+2025-07-01 07:19:12,310 - INFO - Target encoding
+2025-07-01 07:19:12,340 - INFO - Dropping unnecessary columns
+2025-07-01 07:19:12,340 - INFO - Handling categorical and numerical features
+2025-07-01 07:19:12,458 - INFO - Starting our data processing step
+2025-07-01 07:19:12,458 - INFO - Filling missing data
+2025-07-01 07:19:12,468 - INFO - Target encoding
+2025-07-01 07:19:12,473 - INFO - Dropping unnecessary columns
+2025-07-01 07:19:12,473 - INFO - Handling categorical and numerical features
+2025-07-01 07:19:12,511 - INFO - Start our feature selection step
+2025-07-01 07:19:15,227 - INFO - RandomForestClassifier Accuracy: 0.8522
+2025-07-01 07:19:15,245 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:19:15,245 - INFO - feature selection completed successfully
+2025-07-01 07:19:15,265 - INFO - saving our data in processed folder
+2025-07-01 07:19:15,605 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:19:15,605 - INFO - saving our data in processed folder
+2025-07-01 07:19:15,670 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:19:15,670 - INFO - Data processing completed successfully
+2025-07-01 07:19:43,152 - INFO - Successfully read the YAML file
+2025-07-01 07:19:43,152 - INFO - Loading data from RAW directory
+2025-07-01 07:19:43,152 - INFO - Loading data
+2025-07-01 07:19:43,253 - INFO - Loading data
+2025-07-01 07:19:43,268 - INFO - Starting our data processing step
+2025-07-01 07:19:43,268 - INFO - Filling missing data
+2025-07-01 07:19:43,317 - INFO - Target encoding
+2025-07-01 07:19:43,352 - INFO - Dropping unnecessary columns
+2025-07-01 07:19:43,362 - INFO - Handling categorical and numerical features
+2025-07-01 07:19:43,463 - INFO - Starting our data processing step
+2025-07-01 07:19:43,463 - INFO - Filling missing data
+2025-07-01 07:19:43,473 - INFO - Target encoding
+2025-07-01 07:19:43,480 - INFO - Dropping unnecessary columns
+2025-07-01 07:19:43,481 - INFO - Handling categorical and numerical features
+2025-07-01 07:19:43,515 - INFO - Start our feature selection step
+2025-07-01 07:19:46,308 - INFO - RandomForestClassifier Accuracy: 0.8522
+2025-07-01 07:19:46,324 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:19:46,324 - INFO - feature selection completed successfully
+2025-07-01 07:19:46,324 - INFO - saving our data in processed folder
+2025-07-01 07:19:46,692 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:19:46,693 - INFO - saving our data in processed folder
+2025-07-01 07:19:46,757 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:19:46,757 - INFO - Data processing completed successfully
+2025-07-01 07:20:08,174 - INFO - Successfully read the YAML file
+2025-07-01 07:20:08,174 - INFO - Loading data from RAW directory
+2025-07-01 07:20:08,174 - INFO - Loading data
+2025-07-01 07:20:08,240 - INFO - Loading data
+2025-07-01 07:20:08,257 - INFO - Starting our data processing step
+2025-07-01 07:20:08,257 - INFO - Filling missing data
+2025-07-01 07:20:08,289 - INFO - Target encoding
+2025-07-01 07:20:08,310 - INFO - Dropping unnecessary columns
+2025-07-01 07:20:08,313 - INFO - Handling categorical and numerical features
+2025-07-01 07:20:08,411 - INFO - Starting our data processing step
+2025-07-01 07:20:08,411 - INFO - Filling missing data
+2025-07-01 07:20:08,418 - INFO - Target encoding
+2025-07-01 07:20:08,425 - INFO - Dropping unnecessary columns
+2025-07-01 07:20:08,425 - INFO - Handling categorical and numerical features
+2025-07-01 07:20:08,463 - INFO - Start our feature selection step
+2025-07-01 07:20:11,237 - INFO - RandomForestClassifier Accuracy: 0.8522
+2025-07-01 07:20:11,253 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:20:11,253 - INFO - feature selection completed successfully
+2025-07-01 07:20:11,269 - INFO - saving our data in processed folder
+2025-07-01 07:20:11,618 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:20:11,618 - INFO - saving our data in processed folder
+2025-07-01 07:20:11,665 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:20:11,681 - INFO - Data processing completed successfully
+2025-07-01 07:20:32,440 - INFO - Successfully read the YAML file
+2025-07-01 07:20:32,440 - INFO - Loading data from RAW directory
+2025-07-01 07:20:32,440 - INFO - Loading data
+2025-07-01 07:20:32,521 - INFO - Loading data
+2025-07-01 07:20:32,537 - INFO - Starting our data processing step
+2025-07-01 07:20:32,537 - INFO - Filling missing data
+2025-07-01 07:20:32,569 - INFO - Target encoding
+2025-07-01 07:20:32,599 - INFO - Dropping unnecessary columns
+2025-07-01 07:20:32,599 - INFO - Handling categorical and numerical features
+2025-07-01 07:20:32,692 - INFO - Starting our data processing step
+2025-07-01 07:20:32,692 - INFO - Filling missing data
+2025-07-01 07:20:32,692 - INFO - Target encoding
+2025-07-01 07:20:32,710 - INFO - Dropping unnecessary columns
+2025-07-01 07:20:32,711 - INFO - Handling categorical and numerical features
+2025-07-01 07:20:32,742 - INFO - Start our feature selection step
+2025-07-01 07:20:35,523 - INFO - RandomForestClassifier Accuracy: 0.8522
+2025-07-01 07:20:35,524 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:20:35,540 - INFO - feature selection completed successfully
+2025-07-01 07:20:35,540 - INFO - saving our data in processed folder
+2025-07-01 07:20:35,927 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:20:35,927 - INFO - saving our data in processed folder
+2025-07-01 07:20:35,990 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:20:35,990 - INFO - Data processing completed successfully
+2025-07-01 07:22:52,193 - INFO - Successfully read the YAML file
+2025-07-01 07:22:52,193 - INFO - Data ingestions started with salary-prediction-project with salary.csv
+2025-07-01 07:22:52,193 - INFO - Starting data ingestion process
+2025-07-01 07:22:55,672 - INFO - Raw file is successfully downloaded to artifacts/raw\raw.csv
+2025-07-01 07:22:55,688 - INFO - Start the splitting process
+2025-07-01 07:22:55,972 - INFO - Traind data saved to artifacts/raw\train.csv
+2025-07-01 07:22:55,972 - INFO - Test data saved to artifacts/raw\test.csv
+2025-07-01 07:22:55,972 - INFO - Data ingestion completed successfully
+2025-07-01 07:22:55,972 - INFO - Data ingestion completed
+2025-07-01 07:23:17,764 - INFO - Successfully read the YAML file
+2025-07-01 07:23:17,764 - INFO - Loading data from RAW directory
+2025-07-01 07:23:17,764 - INFO - Loading data
+2025-07-01 07:23:17,855 - INFO - Loading data
+2025-07-01 07:23:17,890 - INFO - Starting our data processing step
+2025-07-01 07:23:17,890 - INFO - Filling missing data
+2025-07-01 07:23:17,915 - INFO - Target encoding
+2025-07-01 07:23:17,937 - INFO - Dropping unnecessary columns
+2025-07-01 07:23:17,941 - INFO - Handling categorical and numerical features
+2025-07-01 07:23:18,031 - INFO - Starting our data processing step
+2025-07-01 07:23:18,031 - INFO - Filling missing data
+2025-07-01 07:23:18,037 - INFO - Target encoding
+2025-07-01 07:23:18,042 - INFO - Dropping unnecessary columns
+2025-07-01 07:23:18,043 - INFO - Handling categorical and numerical features
+2025-07-01 07:23:18,092 - INFO - Start our feature selection step
+2025-07-01 07:23:20,821 - INFO - RandomForestClassifier Accuracy: 0.8598
+2025-07-01 07:23:20,837 - INFO - Feature selected : ['num__fnlwgt' 'num__age' 'num__education-num' 'num__capital-gain'
+ 'num__hours-per-week' 'cat__marital-status_ Married-civ-spouse'
+ 'cat__relationship_ Husband' 'num__capital-loss'
+ 'cat__marital-status_ Never-married' 'cat__occupation_ Exec-managerial'
+ 'cat__occupation_ Prof-specialty' 'cat__workclass_ Private']
+2025-07-01 07:23:20,837 - INFO - feature selection completed successfully
+2025-07-01 07:23:20,852 - INFO - saving our data in processed folder
+2025-07-01 07:23:21,200 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-07-01 07:23:21,200 - INFO - saving our data in processed folder
+2025-07-01 07:23:21,247 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-07-01 07:23:21,247 - INFO - Data processing completed successfully

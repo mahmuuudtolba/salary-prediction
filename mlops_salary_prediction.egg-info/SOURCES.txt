@@ -1,0 +1,7 @@
+README.md
+setup.py
+mlops_salary_prediction.egg-info/PKG-INFO
+mlops_salary_prediction.egg-info/SOURCES.txt
+mlops_salary_prediction.egg-info/dependency_links.txt
+mlops_salary_prediction.egg-info/requires.txt
+mlops_salary_prediction.egg-info/top_level.txt

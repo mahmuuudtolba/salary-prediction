@@ -1,4 +1,30 @@
 data_ingestion:
   bucket_name: "salary-prediction-project"
   bucket_file_name : "salary.csv"
-  train_ratio : 0.8
+  train_ratio : 0.85
+
+
+data_preprocssing:
+
+  outlier_values:
+    age_old : 80
+    age_young : 80
+    hours : 50
+
+  categorical_columns:
+    - "workclass"
+    - "marital-status"
+    - "occupation"
+    - "relationship"  
+    - "race"
+    - "sex"
+    - "native-country-encoded"
+
+  numerical_columns:
+    - "age"
+    - "fnlwgt"
+    - "education-num"
+    - "capital-gain"  
+    - "capital-loss"
+    - "hours-per-week"
+  no_of_features : 12

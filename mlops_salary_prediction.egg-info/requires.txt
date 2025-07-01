@@ -4,3 +4,7 @@ google-cloud-storage
 scikit-learn
 pyyaml
 ipykernel
+bioinfokit
+matplotlib
+seaborn
+xgboost

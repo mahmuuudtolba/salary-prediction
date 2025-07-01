@@ -42,8 +42,9 @@ class DataIngestion:
         try : 
             logger.info("Start the splitting process")
             data = pd.read_csv(RAW_FILE_PATH)
-
-            train_data, test_data = train_test_split(data , train_sizes= self.train_ratio)  
+            X = data.drop(columns='salary')
+            y = data["salary"]
+            train_data, test_data = train_test_split(data , train_size= self.train_ratio , stratify=y)  
 
             train_data.to_csv(TRAIN_FILE_PATH)
             test_data.to_csv(TEST_FILE_PATH)
