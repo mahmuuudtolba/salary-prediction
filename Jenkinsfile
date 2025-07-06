@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Cloning github repo to jenkins............'
                 checkout scmGit(branches: [[name: '*/main']], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/mahmuuudtolba/salary-prediction']])
-            }u
+            }
         }
 
         // This stage is not necessary for the Docker build, but kept if you have other uses for it.
