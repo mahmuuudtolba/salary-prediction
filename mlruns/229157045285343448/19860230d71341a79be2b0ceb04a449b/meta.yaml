@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/projects/Salary%20Prediction/mlruns/229157045285343448/19860230d71341a79be2b0ceb04a449b/artifacts
+end_time: 1751787849532
+entry_point_name: ''
+experiment_id: '229157045285343448'
+lifecycle_stage: active
+run_id: 19860230d71341a79be2b0ceb04a449b
+run_name: hilarious-hen-185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751787849317
+status: 4
+tags: []
+user_id: Outlier

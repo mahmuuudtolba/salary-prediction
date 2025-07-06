@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from src.custom_exception import CustomException
 from sklearn.ensemble import RandomForestClassifier
 from config.path_config import *
-from utils.common_functions import read_yaml , read_data , target_encoding
+from utils.common_functions import target_encoding , read_data , read_yaml
 from sklearn.preprocessing import OneHotEncoder , StandardScaler
 from sklearn.compose import ColumnTransformer
 

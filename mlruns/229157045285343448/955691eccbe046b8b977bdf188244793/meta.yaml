@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/projects/Salary%20Prediction/mlruns/229157045285343448/955691eccbe046b8b977bdf188244793/artifacts
+end_time: 1751787874798
+entry_point_name: ''
+experiment_id: '229157045285343448'
+lifecycle_stage: active
+run_id: 955691eccbe046b8b977bdf188244793
+run_name: placid-shrew-364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751787874616
+status: 4
+tags: []
+user_id: Outlier

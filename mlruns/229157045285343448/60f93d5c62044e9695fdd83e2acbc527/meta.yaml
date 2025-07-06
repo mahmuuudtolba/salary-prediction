@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/projects/Salary%20Prediction/mlruns/229157045285343448/60f93d5c62044e9695fdd83e2acbc527/artifacts
+end_time: 1751787930485
+entry_point_name: ''
+experiment_id: '229157045285343448'
+lifecycle_stage: active
+run_id: 60f93d5c62044e9695fdd83e2acbc527
+run_name: upbeat-hare-560
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751787909032
+status: 3
+tags: []
+user_id: Outlier

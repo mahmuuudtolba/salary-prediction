@@ -1,1 +1,4 @@
 secrets/
+logs/
+mlops_salary_prediction.egg-info/
+venv/
